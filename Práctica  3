@@ -1,0 +1,10 @@
+    public static int simpleArraySum(List<Integer> ar) {
+    // Write your code here
+
+        int suma = 0;
+        for (int i=0;i<ar.size();i++){
+            suma = suma + ar.get(i);
+        }
+        return suma;
+    }
+}
