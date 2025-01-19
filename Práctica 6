@@ -1,0 +1,13 @@
+public static List<Integer> rotateLeft(int d, List<Integer> arr) {
+
+    ArrayList<Integer> rotatedList = new ArrayList<>();
+    for(int i=d;i<=arr.size()-1;i++){
+        rotatedList.add(arr.get(i));
+    }
+
+    for(int i=0;i<d; i++){
+        rotatedList.add(arr.get(i));
+    }
+    return rotatedList;
+    }
+}
